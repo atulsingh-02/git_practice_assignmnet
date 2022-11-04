@@ -1,6 +1,6 @@
 let num = 13;
-    let counter = 0;
-    for(i = 1; i <= num; i++) {
+let counter = 0;
+for(let i = 1; i <= num; i++) {
         
         if(num % i == 0) {
             counter++;
@@ -9,9 +9,9 @@ let num = 13;
     }
      
       
-     if(counter == 2) {
-         console.log("Yes");
+if(counter == 2) {
+     console.log(num, "is a Prime Number");
      }
      else {
-         console.log("No");
+     console.log(num, "is not a Prime Number");
      }
